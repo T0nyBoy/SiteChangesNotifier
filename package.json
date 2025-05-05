@@ -1,0 +1,19 @@
+{
+  "name": "sitecompare",
+  "version": "1.0.0",
+  "description": "Comparing sites and send emails",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "author": "Antonis Raftopoulos",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.2.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemailer": "^6.10.0",
+    "puppeteer": "^24.8.0"
+  }
+}

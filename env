@@ -1,0 +1,13 @@
+PORT=8080
+
+# Emails
+EMAIL_USER=
+EMAIL_PASS=
+EMAIL_FROM=
+EMAIL_TO=
+EMAIL_HOST= #smtp.gmail.com
+EMAIL_PORT=
+EMAIL_SECURE=true #true for port 465, false for the other ports
+
+#CHECK SITE INTERVAL IN MINUTES
+RUN_CHEKCS=3
